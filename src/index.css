@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #b026ff;      /* Roxo/Magenta vibrante inspirado no título da imagem */
+  --primary-hover: #c45eff;     /* Tom de roxo mais claro para hovers */
+  --accent-cyan: #00e5ff;       /* Azul ciano elétrico inspirado nas linhas de detalhe da imagem */
+  --bg-dark: #07050f;           /* Fundo escuro profundo com toque futurista */
+  --bg-card: #120e21;           /* Cor de fundo dos cards e blocos */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
