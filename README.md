@@ -55,4 +55,45 @@ Certifique-se de ter instalado em sua máquina:
    ```bash
    git clone [https://github.com/igleallf/Arquivo-Gamer.git](https://github.com/igleallf/Arquivo-Gamer.git)
 
-   
+```
+
+2. **Acessar a pasta do projeto:**
+```bash
+cd Arquivo-Gamer
+
+```
+
+
+3. **Instalar as dependências:**
+```bash
+npm install
+
+```
+
+
+4. **Iniciar o servidor de desenvolvimento:**
+```bash
+npm run dev
+
+```
+
+
+5. **Acessar no navegador:**
+Abra o endereço exibido no seu terminal (geralmente `http://localhost:5173`).
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+Arquivo-Gamer/
+├── public/              # Arquivos públicos e ícones
+├── src/
+│   ├── App.jsx          # Componente principal contendo as rotas e regras de negócio
+│   ├── App.css          # Estilização completa do projeto em CSS3
+│   ├── data.js          # Base de dados em JS (plataformas, jogos, produtos e posts)
+│   └── main.jsx         # Ponto de entrada do React/Vite
+├── index.html           # Documento HTML principal
+├── package.json         # Dependências e scripts do projeto
+└── vite.config.js       # Configurações do Vite
+
